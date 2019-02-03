@@ -1,3 +1,5 @@
+from scipy.optimize import fsolve
+
 def equations(q):
     a, b = q
     return (a+b, a**b-1)
